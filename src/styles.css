@@ -17,6 +17,11 @@ header {
     align-items: center;
 }
 
+img {
+    max-width: 90%;
+    margin: auto;
+}
+
 nav {
     width: 30%;
     display: flex;
@@ -43,12 +48,15 @@ button:hover {
     display: flex;
     justify-content: center;
     margin-top: 15px;
+    width: 100%;
 }
 
-#content div:first-child {
+#content :first-child {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .home-container h1 {
